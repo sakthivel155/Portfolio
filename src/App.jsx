@@ -15,8 +15,11 @@ function App() {
         v7_startTransition: true,  // From previous warning
         v7_relativeSplatPath: true // Add this for the new warning
       }}>
-          <Navbar />
-        <div className='w-[92%] mx-auto py-4'>
+         
+         <Navbar />
+         
+          
+         <div className='w-[92%] mx-auto py-4'>
           <Header/>
           <Routes>
             <Route path='/' element={<About />} />
@@ -24,7 +27,7 @@ function App() {
             <Route path='/project' element={<Project />} />
             <Route path='/contact' element={<Contact />} />
           </Routes>
-        </div>
+         </div>
       </BrowserRouter>
     </>
   )

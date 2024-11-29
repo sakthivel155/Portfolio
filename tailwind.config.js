@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
+      colors: {  
         'lite-gray': '#f1f3f2', //body background color
         'primary-green': '#059862',
         'primary-green-lite': '#037a43',
