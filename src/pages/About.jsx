@@ -2,7 +2,7 @@ import iconDesign from '../assets/icon-design.svg'
 import iconCode from '../assets/icon-code.svg'
 function About() {
     return (
-        <div className="bg-[#1E1E1F] border-[0.2px] border-[#353535] my-4 rounded-xl p-4">
+        <div className="bg-[#1E1E1F] border-[0.2px] border-[#353535] my-4 mb-16 rounded-xl p-4">
             <h2 className="text-xl">About Me</h2>
             <div className="h-[3px] w-[30px] my-2 rounded bg-gradient-to-r from-[#FFDB70] to-[#FFBB5C]"></div>
             <p>I&apos;m Recent BCA graduate with 8.2 CGPA from Nandha Arts and Science College with solid foundation in computer science and web technologies. Specialized in React, JavaScript, and Java.</p>
@@ -27,11 +27,6 @@ function About() {
                    </div> 
               </div>
         </div>
-            
-<br/>
-<br/>
-<br/><br/>
-
         </div>
     )
 }
