@@ -3,7 +3,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import profileAvatar from '../assets/profile-avatar.png'
 import {
     IoMailOutline, IoPhonePortraitOutline, IoCalendarOutline, IoLocationOutline,
-    IoLogoLinkedin, IoLogoGithub, IoLogoInstagram
+    IoLogoLinkedin, IoLogoGithub
 } from "react-icons/io5";
 
 function Header() {
@@ -79,9 +79,7 @@ function Header() {
                         <a href="https://github.com/sakthivel155">
                             <IoLogoGithub className='opacity-50 text-xl' />
                         </a>
-                        <a href="#">
-                            <IoLogoInstagram className='opacity-50 text-xl' />
-                        </a>
+                        
                     </div>
                 </div>
             </div>

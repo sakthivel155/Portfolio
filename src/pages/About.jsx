@@ -13,7 +13,7 @@ function About() {
                   <div className="flex flex-col gap-5 items-center text-center p-3 bg-[#242324] rounded-lg ">
                     <img src={iconDesign} alt="" className='w-12'/>
                    <div >
-                   <h3 className='font-[poppins] mb-2'>Java Programmer</h3>
+                   <h3 className='font-[poppins] mb-2'>Java Development</h3>
                    <p className='text-sm text-justify'>Java programming with a solid understanding of basic concepts and syntax. I&apos;m improving my problem solving skills by practicing coding and learning data structures and algorithms with Java.</p>
                    </div> 
               </div>

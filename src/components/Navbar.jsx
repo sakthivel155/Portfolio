@@ -1,27 +1,56 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+
 function Navbar() {
     return (
-        <nav className='fixed bottom-0 z-50 w-full bg-[#1E1E1F] rounded-t-xl border-[0.2px] border-[#353535] '>
-            <ol className='flex justify-center gap-7 py-5 text-xs font-sans font-semibold '>
+        <nav className='backdrop-blur-md fixed bottom-0 z-50 w-full bg-gray-700/30 rounded-t-xl border-[0.2px] border-[#353535]'>
+            <ol className='flex justify-center gap-7 py-5 text-xs font-sans font-semibold'>
                 <li>
-                    <Link to={"/"} className='text-[#FFDB70]'>
-                    About
-                    </Link>
+                    <NavLink 
+                        to="/" 
+                        className={({ isActive }) => 
+                            isActive 
+                            ? 'text-[#FFDB70]' 
+                            : 'text-white hover:text-[#FFDB70] transition-colors duration-300'
+                        }
+                    >
+                        About
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to={"/resume"}>
-                    Resume
-                    </Link>
+                    <NavLink 
+                        to="/resume" 
+                        className={({ isActive }) => 
+                            isActive 
+                            ? 'text-[#FFDB70]' 
+                            : 'text-white hover:text-[#FFDB70] transition-colors duration-300'
+                        }
+                    >
+                        Resume
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to={"/project"}>
-                    Project
-                    </Link>
+                    <NavLink 
+                        to="/project" 
+                        className={({ isActive }) => 
+                            isActive 
+                            ? 'text-[#FFDB70]' 
+                            : 'text-white hover:text-[#FFDB70] transition-colors duration-300'
+                        }
+                    >
+                        Project
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to={"/contact"}>
-                    Contact
-                    </Link>
+                    <NavLink 
+                        to="/contact" 
+                        className={({ isActive }) => 
+                            isActive 
+                            ? 'text-[#FFDB70]' 
+                            : 'text-white hover:text-[#FFDB70] transition-colors duration-300'
+                        }
+                    >
+                        Contact
+                    </NavLink>
                 </li>
             </ol>
         </nav>

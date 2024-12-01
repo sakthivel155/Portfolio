@@ -9,7 +9,7 @@ return (
 <div className=' relative my-8'>
 
     <VerticalTimeline lineColor={'hsl(0, 0%, 20%)'}
-    layout={"1-column"} animate={0}>
+    layout={"1-column"} animate={false}>
     <VerticalTimelineElement
       contentStyle={{ 
         background: '#1E1E1F', 
