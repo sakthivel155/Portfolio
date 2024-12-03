@@ -20,3 +20,108 @@ body {
     background-color: #000000;
     color: #ffffff;
 }
+
+.projects-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+    
+}
+
+.projects-container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+}
+
+.card-container{
+    
+    max-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.card-container:hover .card-image{
+    transform: scale(1.1);
+    filter: blur(8px) brightness(0.6);
+}
+.card-container:hover .arrow-icon{
+    opacity: 1;
+    top: 20px;
+    right: 20px;
+}
+.card-container:hover .card-name{
+    opacity: 1;
+}
+.card-container:hover .repo-link{
+    opacity: 1;
+    top: 15px;
+    right: 90px;
+}
+.card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.card-container:hover .card-image{
+    transform: scale(1.1);
+    filter: blur(8px) brightness(0.6);
+}
+.card-name{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    opacity: 0;
+    transition: .5s;
+}
+.card-container:hover .card-name{
+    opacity: 1;
+}
+
+.repo-link{
+    position: absolute;
+    right: 45px;
+    top: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 5px;
+    opacity: 0;
+    transition: .5s;
+
+    &:hover{
+        transform: scale(1.1)
+    }
+}
+.card-container:hover .repo-link{
+    opacity: 1;
+    top: 15px;
+    right: 90px;
+}
+
+.arrow-icon{
+    position: absolute;
+    right: 45px;
+    top: 45px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .5s ease;
+
+    &:hover{
+        transform: scale(1.1)
+    }
+}
+.card-container:hover .arrow-icon{
+    opacity: 1;
+    top: 20px;
+    right: 20px;
+}
