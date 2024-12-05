@@ -7,6 +7,11 @@
     src: url('./assets/fonts/Poppins/Poppins-Regular.ttf');
     font-display: swap;
 }   
+@font-face {
+    font-family: 'Poppins-medium';
+    src: url('./assets//fonts/Poppins/Poppins-Medium.ttf');
+    font-display: swap;
+}
 
 
 * {
@@ -125,3 +130,4 @@ body {
     top: 20px;
     right: 20px;
 }
+

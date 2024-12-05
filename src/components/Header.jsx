@@ -25,7 +25,7 @@ function Header() {
                     <img className='scale-[2.3] pt-3 pr-1' src={profileAvatar} alt="" />
                 </div>
                 <div>
-                    <h1 className="text-[17px] mb-[8px]">Sakthivel Ramesh</h1>
+                    <h1 className="text-[17px] mb-[8px] font-[Poppins-medium]">Sakthivel Ramesh</h1>
                     <span className='text-xs bg-[#2B2B2C] px-3 py-[2px] rounded-lg'>Software Developer</span>
                 </div>
             </div>
