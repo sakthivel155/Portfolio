@@ -3,12 +3,12 @@ import projectData from '../Data/DataStorage.js';
 // import workingImg from '../assets/images/projectThumbnails/commingsoon-preview.png';
 function Project() {
     return (
-        <div className="bg-[#1E1E1F] border-[0.2px] border-[#353535] my-4 mb-16 rounded-xl p-4">
+        <div className="bg-[#1E1E1F] border-[0.2px] border-[#353535] my-4 mb-16 rounded-xl p-4 tablet:rounded-3xl tablet:px-10 tablet:py-10">
               <h2 className="text-xl font-[Poppins-medium]">Projects</h2>
               <div className="h-[3px] w-[30px] my-2 rounded bg-gradient-to-r from-[#FFDB70] to-[#FFBB5C]"></div>
              <div className='projects-section'>
 
-            <div className='projects-container'>
+            <div className='projects-container '>
 
                 {projectData.map((project) => {
                     return(

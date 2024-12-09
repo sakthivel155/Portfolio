@@ -10,7 +10,7 @@ function Header() {
     const [showInfo, setShowInfo] = useState(false);
 
     return (
-        <header className='relative bg-[#1E1E1F] rounded-2xl border-[0.2px] border-[#353535] p-4'>
+        <header  onClick={() => setShowInfo(!showInfo)} className='relative bg-[#1E1E1F] rounded-2xl border-[0.2px] border-[#353535] p-4'>
             <div className="flex gap-4 items-center">
                 <button 
                     className='absolute right-0 top-0 p-[5px] border-t border-l border-[#353535] bg-[#202025] rounded-tr-2xl rounded-bl-2xl 
@@ -18,7 +18,8 @@ function Header() {
                     '
                     onClick={() => setShowInfo(!showInfo)}
                 >
-                    <MdKeyboardArrowDown className={`text-xl text-[hsl(45,100%,75%)] transition-transforn duration-500 ${showInfo ? 'rotate-180' : 'rotate-0'}`} />
+                    <p className='hidden  text-[hsl(45,100%,75%)] text-xs p-1 tablet:block '>Show Contacts</p>
+                    <MdKeyboardArrowDown className={`text-xl text-[hsl(45,100%,75%)] transition-transforn duration-500 ${showInfo ? 'rotate-180' : 'rotate-0'} tablet:hidden`} />
                 </button>
                 
                 <div className='w-[80px] h-[80px] overflow-hidden rounded-2xl'>
@@ -33,7 +34,7 @@ function Header() {
             <div className={`transition-all duration-700 ease-in-out overflow-hidden ${showInfo ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
                 <div className='transform transition-transform duration-700'>
                     <hr className='my-5 border-[#353535]' />
-                    <div>
+                    <div className='tablet:grid tablet:grid-cols-2 gap-4'>
                         <div className='flex items-center gap-3 mb-5'>
                             <div>
                                 <IoMailOutline className='bg-[#262628] text-3xl rounded-md text-[#FFDB70] border-t border-l border-[#353535] p-1' />

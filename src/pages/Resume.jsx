@@ -11,7 +11,7 @@ function Resume() {
           
             <EducationTimeline />
             <h3 className="my-2 text-lg">My Skills</h3>
-            <div className="relative bg-gradient-to-br from-[hsl(0,0%,25%)] to-[hsla(0,0%,25%,0)]  rounded-lg p-[1px] my-5">
+            <div className="relative bg-gradient-to-br from-[hsl(0,0%,25%)] to-[hsla(0,0%,25%,0)]  rounded-lg p-[1px] my-5 tablet:mx-[5%]">
                   <div className="flex flex-col gap-2 p-5 bg-[#242324] rounded-lg ">
                     <div>
                         <h4>HTML & CSS <span className="ml-2 text-[.9rem] opacity-60"> 80%</span></h4>
