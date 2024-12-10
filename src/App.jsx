@@ -5,7 +5,8 @@ import Project from './pages/Project'
 import Contact from './pages/Contact'
 
 import Header from './components/Header'
-import Navbar from './components/Navbar'
+import MobileNavbar from './components/MobileNavbar';
+
 import './App.css'
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         v7_relativeSplatPath: true // Add this for the new warning
       }}>
          
-         <Navbar />
+         <MobileNavbar />
          
           
          <div className='w-[92%] mx-auto py-4'>

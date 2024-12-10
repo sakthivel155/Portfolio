@@ -1,8 +1,8 @@
 import { NavLink } from 'react-router-dom'
 
-function Navbar() {
+function LaptopNavbar() {
     return (
-        <nav className='backdrop-blur-md fixed bottom-0 z-50 w-full bg-gray-700/30 rounded-t-xl border-[0.2px] border-[#353535]'>
+        <nav className='hidden laptop:block absolute top-0 right-0 z-50 px-[50px] bg-[#2B2B2C] border-b border-l border-[#383838] rounded-bl-2xl rounded-tr-xl '>
             <ol className='flex justify-center gap-7 py-5 text-xs font-sans font-semibold'>
                 <li>
                     <NavLink 
@@ -57,4 +57,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default LaptopNavbar

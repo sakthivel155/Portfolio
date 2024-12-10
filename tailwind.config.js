@@ -34,7 +34,7 @@ export default {
       'tablet': '600px',
       // => @media (min-width: 640px) { ... }
   
-      'laptop': '1150px',
+      'laptop': '1024px',
       // => @media (min-width: 1024px) { ... }
   
       'desktop': '1440px',

@@ -63,9 +63,10 @@ const ContactUs = () => {
         ref={form} 
         onSubmit={sendEmail} 
         className="
-          w-full mt-10 
+          w-full mt-6 
         "
       >
+         <h2 className="my-4 text-lg ">Contact Form</h2>
       <div className='tablet:flex gap-5'>    
         <div className="mb-5 w-full">
           <input 
