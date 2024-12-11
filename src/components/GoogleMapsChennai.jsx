@@ -13,7 +13,7 @@ const GoogleMapsChennai = () => {
         allowFullScreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        className="w-full h-[250px] tablet:h-[300px] laptop:h-[350px] rounded-xl shadow-lg opacity-75 outline-none"
+        className="w-full h-[250px] tablet:h-[300px] laptop:h-[350px] desktop:h-[270px] rounded-xl shadow-lg opacity-75 outline-none"
       />
     </div>
   );

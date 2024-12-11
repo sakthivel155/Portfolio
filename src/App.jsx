@@ -20,7 +20,7 @@ function App() {
          <MobileNavbar />
          
           
-         <div className='w-[92%] mx-auto py-4'>
+         <div className='w-[92%] desktop:h-[100vh] mx-auto py-4  desktop:flex desktop:gap-5 desktop:w-[80%]'>
           <Header/>
           <Routes>
             <Route path='/' element={<About />} />

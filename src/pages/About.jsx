@@ -3,7 +3,7 @@ import iconCode from '../assets/icon-code.svg'
 import LaptopNavbar from '../components/LaptopNavbar'
 function About() {
     return (
-        <div className="relative bg-[#1E1E1F] border-[0.2px] border-[#353535] my-4 mb-16 rounded-xl p-4 laptop:mb-0 ">
+        <div className="relative bg-[#1E1E1F] border-[0.2px] border-[#353535] my-4 mb-16 rounded-xl p-4 laptop:mb-0 desktop:m-0 desktop:overflow-auto">
             <LaptopNavbar/>
             <h2 className="text-xl font-[Poppins-medium]">About Me</h2>
             <div className="h-[3px] w-[30px] my-3 rounded bg-gradient-to-r from-[#FFDB70] to-[#FFBB5C]"></div>
