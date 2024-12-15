@@ -13,6 +13,7 @@ function Header() {
     const [isLargeScreen, setIsLargeScreen] = useState(false);
 
     useEffect(() => {
+       
         const checkScreenSize = () => {
             setIsLargeScreen(window.innerWidth >= 1440);
             if (window.innerWidth >= 1440) {
@@ -38,7 +39,13 @@ function Header() {
 
     return (
         <header className='relative bg-[#1E1E1F] rounded-[20px] border-[0.2px] border-[#353535] p-4 desktop:flex desktop:flex-col desktop:justify-between desktop:py-12'
-        onClick={()=>setShowInfo(!showInfo)}>
+        onClick={()=> {
+            if (window.innerWidth >= 1440) {
+                setShowInfo(true);
+            }else{
+                setShowInfo(!showInfo)}
+            }}>
+            
             <div className="flex gap-4 items-center desktop:flex-col ">
                 {!isLargeScreen && (
                     <button 
@@ -106,13 +113,13 @@ function Header() {
                     </div>
                     <hr className='my-5 border-[#353535]' />
                     <div className='flex ml-2 gap-4 desktop:justify-center '>
-                        <a href="https://www.linkedin.com/in/sakthivelramesh/">
+                        <a href="https://www.linkedin.com/in/sakthivelramesh/" target='_blank'>
                             <IoLogoLinkedin className='opacity-50 text-xl' />
                         </a>
-                        <a href="https://github.com/sakthivel155">
+                        <a href="https://github.com/sakthivel155" target='_blank'>
                             <IoLogoGithub className='opacity-50 text-xl' />
                         </a>
-                        <a href="https://github.com/sakthivel155">
+                        <a href="https://x.com/SakthivelRame10" target='_blank'>
                             <FaXTwitter className='opacity-50 text-xl' />
                         </a>
                     </div>
