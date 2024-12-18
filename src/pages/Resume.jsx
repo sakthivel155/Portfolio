@@ -7,7 +7,7 @@ function Resume() {
             <LaptopNavbar/>
            <div className="flex items-center justify-between text-[0.8rem]  ">
              <h2 className="text-xl font-[Poppins-medium]">Resume</h2> 
-             <span className="text-[#ceb15a] underline cursor-pointer"><a href="https://drive.google.com/file/d/1iJaKpcc-NhZLsvgRDzBPsrLy_jubb89s/view" target="_blank">myResume</a></span>
+             <span className="text-[#ceb15a] underline cursor-pointer"><a href="https://drive.google.com/file/d/13FjgzbtSCxF_kWEpcU95K3CrtU5V04kX/view?usp=sharing" target="_blank">myResume</a></span>
            </div>
            <div className="h-[3px] w-[30px] my-2 rounded bg-gradient-to-r from-[#FFDB70] to-[#FFBB5C]"></div>
           
