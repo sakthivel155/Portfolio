@@ -5,7 +5,7 @@ function Resume() {
     return (
         <div className="relative bg-[#1E1E1F] border-[0.2px] border-[#353535] my-4 mb-16 rounded-xl p-4 laptop:mb-0 desktop:m-0 desktop:w-full desktop:overflow-auto tablet:px-8 tablet:py-7">
             <LaptopNavbar/>
-           <div className="flex items-center justify-between text-[0.8rem] ">
+           <div className="flex items-center justify-between text-[0.8rem]  ">
              <h2 className="text-xl font-[Poppins-medium]">Resume</h2> 
              <span className="text-[#ceb15a] underline cursor-pointer"><a href="https://drive.google.com/file/d/1iJaKpcc-NhZLsvgRDzBPsrLy_jubb89s/view" target="_blank">myResume</a></span>
            </div>

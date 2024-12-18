@@ -35,7 +35,10 @@ return (
         boxShadow: '0 0 0 0 white'
       }}
     >
+      <div className='flex items-center justify-between'>
         <h1 className='text-xl pt-1 '>Education</h1>
+        <span className="hidden text-[#ceb15a] underline cursor-pointer laptop:block"><a href="https://drive.google.com/file/d/1iJaKpcc-NhZLsvgRDzBPsrLy_jubb89s/view" target="_blank">myResume</a></span>
+        </div>
     </VerticalTimelineElement>
     <VerticalTimelineElement
      
