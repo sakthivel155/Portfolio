@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 function LaptopNavbar() {
     return (
-        <nav className='hidden laptop:block absolute top-0 right-0 z-50 px-[50px] bg-[#2B2B2C] border-b border-l border-[#383838] rounded-bl-2xl  '>
+        <nav className='hidden laptop:block absolute top-0 right-0 z-50 px-[50px] bg-[#2B2B2C] border-b border-l border-[#383838] rounded-bl-full tablet:rounded-tr-xl '>  
             <ol className='flex justify-center gap-7 py-5 text-xs font-sans font-semibold'>
                 <li>
                     <NavLink 

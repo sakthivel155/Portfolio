@@ -38,7 +38,7 @@ function Header() {
     };
 
     return (
-        <header className='relative bg-[#1E1E1F] rounded-[20px] border-[0.2px] border-[#353535] p-4 desktop:flex desktop:flex-col desktop:justify-between desktop:py-12'
+        <header className='relative font-[Poppins] bg-[#1E1E1F] rounded-[20px] border-[0.2px] border-[#353535] p-4 desktop:flex desktop:flex-col desktop:justify-between desktop:py-10'
         onClick={()=> {
             if (window.innerWidth >= 1440) {
                 setShowInfo(true);
@@ -63,7 +63,7 @@ function Header() {
                 </div>
                 <div className='desktop:flex desktop:flex-col desktop:items-center '>
                     <h1 className="text-[17px] mb-[8px] font-[Poppins-medium] desktop:text-xl">Sakthivel Ramesh</h1>
-                    <span className='text-xs bg-[#2B2B2C] px-3 py-[2px] rounded-lg '>Software Developer</span>
+                    <span className='text-xs font-[Poppins] bg-[#2B2B2C] px-3 py-[2px] rounded-lg '>Frontend Developer</span>
                 </div>
             </div>
 
