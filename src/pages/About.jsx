@@ -1,7 +1,6 @@
 import LaptopNavbar from '../components/LaptopNavbar'
 import { TypeAnimation } from 'react-type-animation';
-import { skillIcons } from '../Data/skillIcons';
-
+import { skillIcons } from '../Data/SkillIcons';
 function About() {
     return (
         <div className="relative mobile:text-center tablet:text-left bg-[#1E1E1F] border-[0.2px] border-[#353535] my-4 mb-16 rounded-xl p-4 tablet:p-14 laptop:mb-0 desktop:m-0 desktop:overflow-auto w-full">
@@ -22,7 +21,7 @@ function About() {
           repeat={0}  
           cursor={false}
         />
-      <p className=' mt-12 text-md font-mono tablet:text-justify'>Recent BCA graduate with a strong foundation in computer science and web technologies. I specialize in creating responsive, user-friendly websites and applications using modern technologies. Seeking opportunities to break into the
+      <p className=' mt-12 text-md font-mono tablet:text-justify'>Recent BCA graduate with a strong foundation in computer science and web technologies. I specialize in creating responsive, user-friendly websites and applications using modern web technologies. Seeking opportunities to break into the
         world of web development.</p>
 
         

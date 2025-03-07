@@ -15,37 +15,43 @@ function Resume() {
            <div className="h-[3px] w-[30px] my-2 rounded bg-gradient-to-r from-[#FFDB70] to-[#FFBB5C]"></div>
           
             <EducationTimeline />
-            <h3 className="my-2 text-lg">My Skills</h3>
+            <h3 className="my-2 text-lg">My Activity Levels</h3>
          
-            {/* <div className="relative bg-gradient-to-br from-[hsl(0,0%,25%)] to-[hsla(0,0%,25%,0)]  rounded-lg p-[1px] my-5 tablet:mx-[5%]">
+            <div className="relative bg-gradient-to-br from-[hsl(0,0%,25%)] to-[hsla(0,0%,25%,0)]  rounded-lg p-[1px] my-5 tablet:mx-[5%]">
                   <div className="flex flex-col gap-2 p-5 bg-[#242324] rounded-lg ">
                     <div>
-                        <h4>HTML & CSS <span className="ml-2 text-[.9rem] opacity-60"> 80%</span></h4>
+                        <h4>Frontend Development <span className="ml-2 text-[.9rem] opacity-60"> 80%</span></h4>
                         <div className="w-full h-[6px] rounded my-2 bg-[#383838]">
                                 <div className="w-[80%] h-full bg-slate-300 rounded bg-gradient-to-r from-[#ffda6b] to-[#fbba60] "></div>
                         </div>
                     </div>
                     <div>
-                        <h4>Javascript<span className="ml-2 text-[.9rem] opacity-60"> 70%</span></h4>
+                        <h4>Backend Development<span className="ml-2 text-[.9rem] opacity-60"> 70%</span></h4>
                         <div className="w-full h-[6px] rounded my-2 bg-[#383838]">
                                 <div className="w-[70%] h-full bg-slate-300 rounded bg-gradient-to-r from-[#ffda6b] to-[#fbba60] "></div>
                         </div>
                     </div>
                     <div>
-                        <h4>React JS <span className="ml-2 text-[.9rem] opacity-60"> 60%</span></h4>
+                        <h4>Java & DSA <span className="ml-2 text-[.9rem] opacity-60"> 60%</span></h4>
                         <div className="w-full h-[6px] rounded my-2 bg-[#383838]">
                                 <div className="w-[60%] h-full bg-slate-300 rounded bg-gradient-to-r from-[#ffda6b] to-[#fbba60] "></div>
                         </div>
                     </div>
                     <div>
-                        <h4>Java<span className="ml-2 text-[.9rem] opacity-60"> 65%</span></h4>
+                        <h4>Logical Thinking & Problem Solving<span className="ml-2 text-[.9rem] opacity-60"> 50%</span></h4>
                         <div className="w-full h-[6px] rounded my-2 bg-[#383838]">
-                                <div className="w-[65%] h-full bg-slate-300 rounded bg-gradient-to-r from-[#ffda6b] to-[#fbba60] "></div>
+                                <div className="w-[50%] h-full bg-slate-300 rounded bg-gradient-to-r from-[#ffda6b] to-[#fbba60] "></div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Dynamic Programming<span className="ml-2 text-[.9rem] opacity-60"> 75%</span></h4>
+                        <div className="w-full h-[6px] rounded my-2 bg-[#383838]">
+                                <div className="w-[75%] h-full bg-slate-300 rounded bg-gradient-to-r from-[#ffda6b] to-[#fbba60] "></div>
                         </div>
                     </div>
                   </div>
-            </div> */}
-            <div className="grid mobile:grid-cols-3 tablet:grid-cols-4 laptop:grid-cols-5 gap-y-10  font-[poppins] text-[.8rem] my-16 w-full"> 
+            </div>
+            {/* <div className="grid mobile:grid-cols-3 tablet:grid-cols-4 laptop:grid-cols-5 gap-y-10  font-[poppins] text-[.8rem] my-16 w-full"> 
                   <div className='flex flex-col justify-between items-center '>
                           <img className='w-14 my-auto mb-2' src={skillIcons.html} alt="" />
                           <p >Html</p>
@@ -94,7 +100,7 @@ function Resume() {
                           <p >Postman</p>
                 </div>
               
-                  </div>  
+                  </div>   */}
            
         </div>
     );
