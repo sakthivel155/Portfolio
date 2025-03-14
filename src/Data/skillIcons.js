@@ -21,5 +21,4 @@ export const skillIcons = {
     postgresql: postgresql,
     git: git,
     postman: postman
-
 }
