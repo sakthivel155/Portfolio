@@ -1,6 +1,6 @@
 import LaptopNavbar from '../components/LaptopNavbar'
 import { TypeAnimation } from 'react-type-animation';
-import { skillIcons } from '../Data/SkillIcons';
+
 function About() {
     return (
         <div className="relative mobile:text-center tablet:text-left bg-[#1E1E1F] border-[0.2px] border-[#353535] my-4 mb-16 rounded-xl p-4 tablet:p-14 laptop:mb-0 desktop:m-0 desktop:overflow-auto w-full">
