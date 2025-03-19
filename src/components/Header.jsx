@@ -63,7 +63,7 @@ function Header() {
                 </div>
                 <div className='desktop:flex desktop:flex-col desktop:items-center '>
                     <h1 className="text-[17px] mb-[8px] font-[Poppins-medium] desktop:text-xl">Sakthivel Ramesh</h1>
-                    <span className='text-xs font-[Poppins] bg-[#2B2B2C] px-3 py-[2px] rounded-lg '>Frontend Developer</span>
+                    <span className='text-xs font-[Poppins] bg-[#2B2B2C] px-3 py-[2px] rounded-lg '>Software Developer</span>
                 </div>
             </div>
 
