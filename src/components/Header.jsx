@@ -3,6 +3,8 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { FaXTwitter } from "react-icons/fa6";
 
 import profileAvatar from '../assets/profile-avatar.png'
+import { SiLeetcode } from "react-icons/si";
+
 import {
     IoMailOutline, IoPhonePortraitOutline, IoCalendarOutline, IoLocationOutline,
     IoLogoLinkedin, IoLogoGithub
@@ -119,6 +121,9 @@ function Header() {
                         <a href="https://github.com/sakthivel155" target='_blank'>
                             <IoLogoGithub className='opacity-50 text-xl' />
                         </a>
+                        <a href="https://leetcode.com/u/sakthivel_ramesh/" target='_blank'>
+                            <SiLeetcode className='opacity-50 text-xl'/>
+                        </a>  
                         <a href="https://x.com/SakthivelRame10" target='_blank'>
                             <FaXTwitter className='opacity-50 text-xl' />
                         </a>

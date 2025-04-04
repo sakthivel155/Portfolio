@@ -1,4 +1,4 @@
 export const config = {
-    RESUME_URL : "https://drive.google.com/file/d/131opIuD4RWBanQTh3K_Q_YouUwVJLC0O/view"
+    RESUME_URL : "https://drive.google.com/file/d/1kTe4QefsZTAonfvliJsxL7ieuvpQuDIs/view?usp=sharing"
     
 }

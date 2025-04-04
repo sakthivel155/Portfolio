@@ -74,6 +74,10 @@ function About() {
                 <div className='flex flex-col justify-between items-center '>
                           <img className='w-14  mb-2' src={skillIcons.postman} alt="" />
                           <p >Postman</p>
+          </div>
+          <div className='flex flex-col justify-between items-center '>
+                          <img className='w-14  mb-2' src={skillIcons.java} alt="" />
+                          <p >Java</p>
                 </div>
               
                   </div>  

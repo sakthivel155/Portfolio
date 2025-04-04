@@ -9,6 +9,7 @@ import css from '../assets/icons/skills/css.svg'
 import postgresql from '../assets/icons/skills/postgresql.svg'
 import git from '../assets/icons/skills/git.svg'
 import postman from '../assets/icons/skills/postman.svg'
+import java from '../assets/icons/skills/java.svg'
 export const skillIcons = {
     js: js,
     react: react,
@@ -20,5 +21,6 @@ export const skillIcons = {
     css: css,
     postgresql: postgresql,
     git: git,
-    postman: postman
+    postman: postman,
+    java: java
 }
